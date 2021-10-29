@@ -91,8 +91,7 @@ public class ProductController {
 				  } 
 			  } 
 		  history += ","+product.getProdNo(); 
-		  Cookie cookie=new Cookie("history", history);
-		  response.addCookie(cookie);
+		  Cookie cookie=new Cookie("history", history); response.addCookie(cookie);
 		 
 
 		/*
